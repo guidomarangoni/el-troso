@@ -1,0 +1,134 @@
+[
+  {
+    "id": "seed_01_nascita",
+    "text": "Naturalmente non la ricordo, ma la mia nascita è avvenuta \"in casa\", come era peraltro normale per quei tempi, il 22 gennaio 1940, all'una e trenta di notte. Era inverno pieno e come mi è stato poi riferito c'era sulle strade e sui campi oltre mezzo metro di neve, che di solito poi si scioglieva solo a primavera. Nel nostro appartamento avevamo soltanto una stufa a legna in cucina, da utilizzare per ogni necessità.",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_01_nascita.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La nascita\"",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_02_via_adua",
+    "text": "Via Eritrea a Padova, che in un secondo tempo è stata rinominata via Adua per la parte laterale che aveva, e dove noi abitavamo, era una piccola strada tutta sterrata (\"ea stradea\"), chiusa alla fine (cioè finiva nei campi) e ha rappresentato per i miei primi anni tutto il mio mondo. Uscire da essa era come andare più che all'estero. Tutti i nostri passatempi (normalmente i giochi con le palline di vetro o con i tappi delle bibite) avvenivano \"in stradea\" dove il passaggio di vetture era assolutamente raro.",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "home",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_02_via_adua.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"I miei primi passi\"",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_03_teolo",
+    "text": "A seguito dei bombardamenti su Padova, i miei genitori hanno cercato una sistemazione fuori città. Si trovò alloggio a Teolo nei Colli Euganei, in una parte della casa di campagna di amici della mamma. I ricordi di quel periodo, durato un paio di anni, riguardano: \"Pippo\", così chiamato, era un aereo che di notte sorvolava a bassa quota le varie zone di guerra bombardando dove vedeva delle luci accese; \"lo schiaffo\" da parte mia ad una polenta fumante appena servita in tavola, con le conseguenze del caso per la mia mano, per una mia disobbedienza rispetto a quanto raccomandatomi dalla mamma; \"mio papà\" che da Padova, dove lavorava, rientrava alla sera a casa in sella al suo \"mosquito\" — era di fatto una bicicletta munita di un piccolo motore — attaccandosi con una cordicella alla \"corriera di linea della Siamic\" che ogni sera percorreva il tragitto Padova–Teolo.",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "home",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_03_teolo.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La guerra e il trasferimento a Teolo\" — passaggi distillati dai tre aneddoti chiave (Pippo, lo schiaffo, il mosquito)",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_04_calvi",
+    "text": "Un aneddoto senz'altro da sottolineare, e che ho sempre sentito di dover fare mio, è relativo al prof. Mazzi, il docente di Economia che avevamo all'Istituto Tecnico Commerciale P.F. Calvi. L'ultimo giorno di scuola — era il giugno 1961 — al suonare della campanella finale si è messo in piedi e, con gli occhi un po' lucidi, ci ha semplicemente detto, quale congedo e augurio: \"ragazzi ora che entrate nel mondo del lavoro e della vita vera vissuta ricordatevi prima di tutto: competenza e onestà!\". E non credo sia una coincidenza del tutto casuale se sono sostanzialmente le stesse parole utilizzate da Mario Draghi in occasione della sua nomina a Presidente del Consiglio (2021 — 60 anni dopo!).",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "work",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_04_calvi.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La scuola\"",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_05_sport",
+    "text": "L'attività sportiva era per me il primo desiderio e l'ho praticata in svariate discipline, ovunque potevo. Ho iniziato con il calcio nella squadra della parrocchia (Sacra Famiglia) a partire dai 12/13 anni e, con un intervallo durato due stagioni, ho giocato con il Padova (il massimo possibile allora), dove ho terminato nella prima squadra della categoria \"ragazzi\", che ha coinciso con l'era del \"paron Nereo Rocco\" — il miglior campionato di sempre dell'A.C. Padova (1957–1958), classificatasi al 3° posto in serie A.",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "other",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_05_sport.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"L'attività sportiva\"",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_06_famiglia",
+    "text": "Il nonno ha conosciuto la nonna nel lontano 1954, quando lui era quotidianamente a giocare nel Patronato della Parrocchia della Sacra Famiglia, e dove oggi c'è la farmacia. La casa della nonna, dove lei e tutta la sua famiglia erano da poco arrivati da Milano, era infatti adiacente. Dopo normali traversie e andirivieni, ci siamo sposati il 27 dicembre 1967 ovviamente nella Chiesa della Sacra Famiglia. Se fate i calcoli, siamo ormai alla celebrazione del 57° anniversario di matrimonio, traguardo non da poco.",
+    "createdAt": "2025-01-09T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_06_famiglia.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La nuova famiglia\"",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_07_piazza_signori",
+    "text": "Una delle prime foto che mi ritraggono è in Piazza dei Signori a Padova. Avevo 19 mesi (come da annotazione autografa di mia mamma sul retro) e lei mi aveva preparato di tutto punto e portato in centro per fissare questo suo orgoglio. Accanto a noi c'era anche mia sorella Gabriella, che allora aveva 4 anni. Sul retro di quella stessa fotografia si trova, sorprendentemente, la firma autografa di Gino Bartali.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_07_piazza_signori.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La nascita\" — passaggio sulla foto in Piazza dei Signori e il dettaglio della firma di Gino Bartali sul retro",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_08_quinta_elementare",
+    "text": "Le elementari le ho frequentate prima all'Istituto Madame Clair (gestito dalle suore, in Riviera Paleocapa) per i primi 3 anni assieme a mia sorella Gabriella, e per gli ultimi 2 anni alla scuola statale A. Manzoni in via Cristoforo Moro. Nella foto della classe della 5ª elementare eravamo in 41! Avevamo un bravissimo maestro, il maestro Vettore. Io sono in ginocchio nella seconda fila, il quarto da sinistra. Naturalmente tutto sempre a piedi, di riscaldamento non si parlava molto.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "work",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_08_quinta_elementare.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La scuola\" — foto della 5ª elementare con il maestro Vettore",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_09_parrocchia_giornali",
+    "text": "L'attività sportiva era per me il primo desiderio e l'ho praticata in svariate discipline. Oltre al calcio, ho fatto ping-pong, pallavolo e atletica leggera (velocità e salto in lungo, vincendo i campionati studenteschi col Calvi). Tutto ruotava intorno al Patronato della Parrocchia della Sacra Famiglia, e con loro abbiamo fatto anche diversi viaggi. In una di quelle gite di gruppo, in montagna, ci siamo fatti immortalare con i giornali del giorno: \"Stadio\" e la pubblicità del Cynar. Io sono il ragazzo con il giornale a destra.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "other",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_09_parrocchia_giornali.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"L'attività sportiva\" — viaggi della parrocchia Sacra Famiglia",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_10_nonna_ida_1913",
+    "text": "Mia nonna materna, Sinigaglia Ida, è nata a Teolo (Padova) il 1° novembre 1877. In una foto del 1913, scattata nello studio Bondi di Padova, è ritratta con quattro delle sue figlie: la zia Sofia (6 anni, già rientrate dalla Germania), la zia Anna (4 anni), la mia mamma Agnese (2 anni) e la zia Gemma (di qualche mese). La nonna era emigrata in Germania per necessità economiche, dove è nata la zia Sofia nel 1907 e dove ha subito un grave incidente in fabbrica: le è stata amputata interamente una gamba, e aveva solo 30 anni. Ma è poi vissuta fino a 83.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_10_nonna_ida_1913.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La genealogia\" — foto della nonna Ida del 1913",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_11_famiglia_primi_anni",
+    "text": "Una foto dei primi anni '40 ritrae \"la famiglia del momento\": mio papà Guido che mi tiene in alto, neonato, mia mamma Agnese giovane sposa accanto a lui, e i bambini più grandi della famiglia attorno. Gli zii Francesca e Armando dovevano ancora arrivare. Era il tempo in cui abitavamo in via Eritrea (poi rinominata via Adua) a Padova, in una piccola strada sterrata chiusa che finiva nei campi.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_11_famiglia_primi_anni.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La nascita\" — foto della famiglia del momento",
+    "_validation_status": "draft"
+  },
+  {
+    "id": "seed_12_raduni_festa_mamma",
+    "text": "Dopo il matrimonio del 1967 sono naturalmente iniziati anche i raduni di famiglia. Per un certo periodo ne facevamo uno fisso in occasione della festa della mamma: ci si trovava tutti insieme, fratelli, sorelle, cugini, nipoti, in giardino. Era il momento in cui si capiva che la famiglia non era più solo una coppia, ma una piccola tribù che cresceva di anno in anno.",
+    "createdAt": "2026-04-26T00:00:00.000Z",
+    "originalLang": "it",
+    "tag": "family",
+    "walker": "self",
+    "imagePath": "assets/seed/used/seed_12_raduni_festa_mamma.jpg",
+    "_source_book": "Giorgio Marangoni, \"Nonno parlaci di te\" (gennaio 2025), capitolo \"La nuova famiglia\" — raduni della festa della mamma",
+    "_validation_status": "draft"
+  }
+]

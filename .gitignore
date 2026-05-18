@@ -1,0 +1,138 @@
+# ============================================================
+# macOS / OS files
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ============================================================
+# Large model weights — NEVER commit (2.4 GB + 171 MB + 4.4 MB)
+# Users download separately and adb push to device. See README.
+# ============================================================
+models/
+*.litertlm
+*.tflite
+sentencepiece.model
+**/el-troso-models/
+
+# ============================================================
+# Video production — local-only, too large for git, often private
+# ============================================================
+video-recordingns/
+video-recordings/
+screen-recordings/
+Progetto Filmora/
+*.mp4
+*.mov
+*.MP4
+*.MOV
+*.wav
+*.WAV
+*.aif
+*.aiff
+
+# Keep the small generated PDFs (storyboard, screen rec guide, b-roll)
+# They are committed binaries by design.
+!*.pdf
+
+# ============================================================
+# Flutter / Dart artifacts (el_troso/)
+# ============================================================
+el_troso/.dart_tool/
+el_troso/.flutter-plugins
+el_troso/.flutter-plugins-dependencies
+el_troso/.packages
+el_troso/.pub-cache/
+el_troso/.pub/
+el_troso/build/
+el_troso/.fvm/
+el_troso/coverage/
+el_troso/devtools_options.yaml
+el_troso/.metadata
+.dart_tool/
+build/
+
+# Android build artifacts
+el_troso/android/.gradle/
+el_troso/android/local.properties
+el_troso/android/key.properties
+el_troso/android/**/*.iml
+el_troso/android/**/GeneratedPluginRegistrant.java
+el_troso/android/captures/
+
+# iOS build artifacts (deferred per BACKLOG)
+el_troso/ios/Flutter/.last_build_id
+el_troso/ios/Flutter/App.framework
+el_troso/ios/Flutter/Flutter.framework
+el_troso/ios/Flutter/Flutter.podspec
+el_troso/ios/Flutter/Generated.xcconfig
+el_troso/ios/Flutter/ephemeral/
+el_troso/ios/Flutter/app.flx
+el_troso/ios/Flutter/app.zip
+el_troso/ios/Flutter/flutter_assets/
+el_troso/ios/Flutter/flutter_export_environment.sh
+el_troso/ios/ServiceDefinitions.json
+el_troso/ios/Runner/GeneratedPluginRegistrant.*
+el_troso/ios/Pods/
+el_troso/ios/.symlinks/
+el_troso/ios/Flutter/flutter_assets/
+el_troso/ios/Runner.xcworkspace/xcuserdata/
+el_troso/ios/Runner.xcodeproj/xcuserdata/
+
+# ============================================================
+# IDE / editor
+# ============================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.fleet/
+
+# ============================================================
+# Local secrets / config (just in case)
+# ============================================================
+.env
+.env.local
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# ============================================================
+# Empty placeholder dirs at root (from earlier scaffolding,
+# real code lives in el_troso/)
+# ============================================================
+/frontend/
+/backend/
+/lib/
+
+# ============================================================
+# Documenti di lavoro / valutazione interna — NON pubblicare
+# ============================================================
+BRAINSTORM.md
+PROJECT.md
+PIANO_FASE_4.md
+ONBOARDING_PLAN.md
+MULTILINGUA_PLAN.md
+INTEGRAZIONE-MODULO-VALUTAZIONE.md
+STITCH_PROMPT*.md
+/intake/
+/research/
+/docs/
+
+# ============================================================
+# Materiali di produzione video — locali, non pubblicare
+# ============================================================
+STORYBOARD_VIDEO_PITCH.md
+STORYBOARD_VIDEO_PITCH_IT.md
+STORYBOARD_VIDEO_PITCH.pdf
+STORYBOARD_VIDEO_PITCH/
+VOICEOVER_SCRIPT.md
+OVERLAY_TEXT.md
+SCREEN_RECORDING_GUIDE.md
+SCREEN_RECORDING_GUIDE.pdf
+BROLL_SHOOTING_GUIDE.pdf
+SUBMISSION_CHECKLIST.md

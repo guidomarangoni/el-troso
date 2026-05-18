@@ -1,0 +1,542 @@
+{
+  "@@locale": "it",
+
+  "appTitle": "El Troso",
+  "@appTitle": {
+    "description": "Nome dell'app. Non tradurre."
+  },
+
+  "appTagline": "Il sentiero dei tuoi ricordi resta vivo se lo ripercorri.",
+  "@appTagline": {
+    "description": "Tagline principale, usata in onboarding S1 e in splash."
+  },
+
+  "onbStart": "Comincia",
+  "onbStepLabel": "{current} di {total}",
+  "@onbStepLabel": {
+    "description": "Indicatore di step durante l'onboarding, es. '2 di 3'.",
+    "placeholders": {
+      "current": {"type": "int", "example": "2"},
+      "total": {"type": "int", "example": "3"}
+    }
+  },
+  "onbBack": "Indietro",
+  "onbNameQ": "Come ti chiami?",
+  "onbNameHint": "Il tuo nome",
+  "onbNameNext": "Avanti",
+  "onbVocativeQ": "E come vuoi che ti chiami?",
+  "onbVocativeName": "Usa il mio nome",
+  "onbVocativeFormal": "Signore / Signora",
+  "onbVocativeFormalValue": "Signore",
+  "@onbVocativeFormalValue": {
+    "description": "Valore letterale del vocativo formale (MVP maschile; il gender picker arrivera' in 4.6)."
+  },
+  "onbVocativeFamily": "Nonno / Nonna",
+  "onbVocativeFamilyValue": "Nonno",
+  "@onbVocativeFamilyValue": {
+    "description": "Valore letterale del vocativo familiare (MVP maschile)."
+  },
+  "onbVocativeOther": "Altro...",
+  "onbVocativeCustomHint": "Come vuoi essere chiamato",
+  "onbDecadeQ": "In che decennio sei nato/a?",
+  "onbDecadeOptional": "Puoi anche non dirlo.",
+  "onbDecadeLabel": "Anni {shortYear}",
+  "@onbDecadeLabel": {
+    "description": "Etichetta di un chip decennio, es. 'Anni 50' per 1950.",
+    "placeholders": {
+      "shortYear": {"type": "String", "example": "50"}
+    }
+  },
+  "onbDecadeSkip": "Salta",
+  "onbDone": "Ecco fatto",
+
+  "homeGreeting": "Ciao {name},",
+  "@homeGreeting": {
+    "description": "Saluto della home con placeholder nome utente.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Giorgio"
+      }
+    }
+  },
+  "homeRecordCta": "Racconta",
+  "homeWalkCta": "Ripercorri",
+  "homeAskCta": "Fai una domanda",
+
+  "recordPromptQ": "Cosa vuoi raccontarmi?",
+  "recordMicCta": "Tocca per parlare",
+  "recordSaveCta": "Custodisci",
+  "@recordSaveCta": {
+    "description": "CTA per salvare un ricordo. 'Custodire' e' scelto per il registro di cura/rispetto (non 'Salva')."
+  },
+  "recordCharCounter": "{n, plural, =1{1 carattere rimasto} other{{n} caratteri rimasti}}",
+  "@recordCharCounter": {
+    "description": "Contatore caratteri rimasti sotto il TextField ricordo. Invita alla sintesi prima del limite seq512 di EmbeddingGemma.",
+    "placeholders": {
+      "n": {"type": "int", "example": "1234"}
+    }
+  },
+  "recordCharLimitReached": "Hai raggiunto il limite. Prova a sintetizzare in meno parole.",
+  "@recordCharLimitReached": {
+    "description": "SnackBar mostrato quando la dettatura raggiunge il cap caratteri e viene fermata automaticamente."
+  },
+  "recordSavedLabel": "Ho custodito il tuo ricordo. Ora il tuo sentiero e' piu' vivo.",
+  "recordFollowupIntro": "Un dettaglio in piu' se ti va:",
+  "recordTagPrompt": "Di cosa parla questo ricordo?",
+
+  "tagFamily": "Famiglia",
+  "tagWork": "Lavoro",
+  "tagTravel": "Viaggi",
+  "tagHome": "Casa",
+  "tagOther": "Altro",
+
+  "walkerChipTellQ": "Chi sta raccontando?",
+  "walkerChipWalkQ": "Chi lo sta calpestando?",
+  "walkerGiorgio": "{name}",
+  "@walkerGiorgio": {
+    "description": "Chip walker default, usa il nome dell'utente principale.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Giorgio"
+      }
+    }
+  },
+  "walkerChild": "Il figlio / la figlia",
+  "walkerGrandchild": "Un nipote",
+  "walkerFriend": "Un amico",
+
+  "walkCtaLabel": "Ripercorriamolo insieme",
+  "walkDoneLabel": "Il sentiero e' di nuovo vivo.",
+  "fadingEmptyState": "Qualcosa sta sbiadendo. Vuoi tornarci?",
+
+  "askPromptQ": "Cosa vuoi chiedermi?",
+  "askListening": "Sto ascoltando...",
+  "sourceChipLabel": "Ho usato questo ricordo",
+
+  "askTitle": "Fai una domanda",
+  "@askTitle": {
+    "description": "AppBar title della pagina AskPage (Fase 4.5.e)."
+  },
+  "askSubmitCta": "Chiedi",
+  "@askSubmitCta": {
+    "description": "CTA per inviare la domanda al RAG + Gemma."
+  },
+  "askMicTooltip": "Tocca per dettare la domanda",
+  "@askMicTooltip": {
+    "description": "Tooltip del microfono nella AskPage."
+  },
+  "askRetrievingLabel": "Sto cercando tra i tuoi ricordi...",
+  "@askRetrievingLabel": {
+    "description": "Messaggio di progress durante il retrieve dal vector store."
+  },
+  "askThinkingLabel": "Sto pensando...",
+  "@askThinkingLabel": {
+    "description": "Messaggio di progress durante la generazione Gemma."
+  },
+  "askSourcesHeader": "Ho usato questi ricordi:",
+  "@askSourcesHeader": {
+    "description": "Header sopra la lista dei ricordi usati per rispondere."
+  },
+  "askNoMatchBody": "Non ho trovato ricordi che parlino di questo. Prova a raccontarne uno correlato e poi chiedimi di nuovo.",
+  "@askNoMatchBody": {
+    "description": "Fallback quando nessun ricordo supera la soglia di similarity."
+  },
+
+  "ragFallback": "Non mi ricordo bene.",
+  "errorTechnical": "Mi sono fermato un momento. Riproviamo?",
+
+  "noMemoriesYet": "Ancora nessun ricordo. Comincia raccontandone uno.",
+  "pathBeginsHere": "Il tuo sentiero inizia qui. Fai il primo passo.",
+
+  "memoriesHeader": "I tuoi ricordi",
+  "@memoriesHeader": {
+    "description": "Header della sezione ricordi nella home, sopra la lista degli ultimi N."
+  },
+  "memoriesLoadError": "Qualcosa e' andato storto nel rileggere i ricordi.",
+  "@memoriesLoadError": {
+    "description": "Testo di errore soft se il caricamento della lista ricordi dal disco fallisce. Non e' un crash, e' un messaggio in linea."
+  },
+  "memoryDateToday": "oggi",
+  "memoryDateYesterday": "ieri",
+  "memoryDateDaysAgo": "{n, plural, =1{1 giorno fa} other{{n} giorni fa}}",
+  "@memoryDateDaysAgo": {
+    "description": "Data relativa per ricordi di 2-6 giorni fa.",
+    "placeholders": {
+      "n": {"type": "int", "example": "3"}
+    }
+  },
+  "memoryDateWeeksAgo": "{n, plural, =1{1 settimana fa} other{{n} settimane fa}}",
+  "@memoryDateWeeksAgo": {
+    "description": "Data relativa per ricordi di 1-4 settimane fa.",
+    "placeholders": {
+      "n": {"type": "int", "example": "2"}
+    }
+  },
+  "memoryDateMonthsAgo": "{n, plural, =1{1 mese fa} other{{n} mesi fa}}",
+  "@memoryDateMonthsAgo": {
+    "description": "Data relativa per ricordi di 1-11 mesi fa.",
+    "placeholders": {
+      "n": {"type": "int", "example": "3"}
+    }
+  },
+  "memoryDateYearsAgo": "{n, plural, =1{1 anno fa} other{{n} anni fa}}",
+  "@memoryDateYearsAgo": {
+    "description": "Data relativa per ricordi di 1+ anni fa.",
+    "placeholders": {
+      "n": {"type": "int", "example": "2"}
+    }
+  },
+  "memoryDetailTitle": "Ricordo",
+  "@memoryDetailTitle": {
+    "description": "AppBar title per la pagina di dettaglio di un ricordo (Ripercorro)."
+  },
+  "memoryDetailNotFound": "Non riesco a trovare questo ricordo.",
+  "@memoryDetailNotFound": {
+    "description": "Messaggio mostrato se apri /memory/:id con un id che non esiste piu' (cancellato, file corrotto)."
+  },
+  "walkInProgressLabel": "Sto ripercorrendo...",
+  "@walkInProgressLabel": {
+    "description": "Label mostrato mentre il TTS sta leggendo il ricordo ad alta voce."
+  },
+  "walkStopCta": "Fermati",
+  "@walkStopCta": {
+    "description": "CTA per interrompere la lettura TTS in corso."
+  },
+  "walkBackHomeCta": "Torna al sentiero",
+  "@walkBackHomeCta": {
+    "description": "CTA per tornare alla home dopo aver ripercorso un ricordo."
+  },
+
+  "settingsTitle": "Impostazioni",
+  "settingsRestart": "Ricomincia il sentiero",
+  "settingsLanguage": "Lingua",
+  "settingsLanguageIt": "Italiano",
+  "settingsLanguageEn": "English",
+  "playgroundTitle": "Playground (dev)",
+  "playgroundDescription": "Pannello di test interno. Non visibile agli utenti finali.",
+
+  "memoryDeleteTitle": "Dimenticare questo ricordo?",
+  "memoryDeleteBody": "Se lo fai, non potremo più ripercorrerlo insieme. Sei sicuro?",
+  "memoryDeleteCancel": "No, tienilo",
+  "memoryDeleteConfirm": "Sì, dimenticalo",
+
+  "recordAddPhoto": "Aggiungi foto",
+  "recordPhotoCamera": "Scatta una foto",
+  "recordPhotoGallery": "Scegli dalla galleria",
+  "recordDescribingImage": "Sto guardando la foto...",
+  "recordImageAdded": "Foto aggiunta",
+  "recordAudio": "Registra audio",
+  "recordStopAudio": "Ferma registrazione",
+  "recordTranscribing": "Sto trascrivendo...",
+  "recordAudioAdded": "Audio aggiunto",
+  "recordAudioReady": "Audio originale salvato",
+
+  "carouselWelcomeTitle": "El Troso",
+  "carouselWelcomeBody": "Il sentiero dei tuoi ricordi\nresta vivo se lo ripercorri.",
+  "carouselWelcomeCta": "Comincia il sentiero",
+
+  "carouselCompanionTitle": "Un compagno per i tuoi ricordi",
+  "carouselCompanionBody": "Racconta quello che vuoi ricordare — a voce, con le parole, o con una foto.\nEl Troso lo custodirà per te.",
+
+  "carouselRecordTitle": "Raccontami un ricordo",
+  "carouselRecordBody": "Parla, scrivi, o scatta una foto.\nIo ascolto e ricordo tutto al posto tuo.",
+
+  "carouselRediscoverTitle": "Ripercorri il sentiero",
+  "carouselRediscoverBody": "Quando vuoi, chiedi.\nIo ti rileggo i tuoi ricordi,\ncon la tua voce e le tue parole.",
+
+  "carouselPrivacyTitle": "Tutto resta qui, con te",
+  "carouselPrivacyBody": "Nessun dato esce dal tuo telefono.\nI tuoi ricordi sono solo tuoi —\nEl Troso funziona senza internet.",
+  "carouselPrivacyCta": "Sono pronto",
+
+  "carouselSkip": "Salta",
+  "carouselNext": "Avanti",
+
+  "drawerHome": "Casa",
+  "drawerRecord": "Racconta un ricordo",
+  "drawerAsk": "Fai una domanda",
+  "drawerOnboarding": "Come funziona",
+  "drawerPlayground": "Playground (dev)",
+  "drawerLanguage": "Lingua",
+
+  "memoryTranslateCta": "Traduci",
+  "memoryTranslating": "Sto traducendo…",
+  "memoryTranslationLabel": "Traduzione",
+  "memoryTranslateError": "Non sono riuscito a tradurre. Riprova tra un momento.",
+  "memoryTranslateRedoCta": "Traduci di nuovo",
+
+  "recordExitTitle": "Vuoi uscire?",
+  "recordExitBody": "Il ricordo non sarà custodito.",
+  "recordExitConfirm": "Sì, esci",
+  "recordExitCancel": "No, resta",
+
+  "homeWalkSection": "Cammina sul sentiero",
+  "@homeWalkSection": {
+    "description": "Header della sezione voce/RAG nella home: racconto, ripercorro, fai una domanda."
+  },
+  "homeTrainSection": "Allena la memoria",
+  "@homeTrainSection": {
+    "description": "Header della sezione giochi nella home: G3 riconosci, G1 memoria delle foto."
+  },
+
+  "homeSubGreetingWithToday": "oggi c'è un ricordo che vale la pena ripercorrere.",
+  "@homeSubGreetingWithToday": {
+    "description": "Sotto-saluto della Home v4 quando G4 SRT ha una proposta del giorno (todays != null)."
+  },
+  "homeSubGreetingNoToday": "il sentiero è tutto fresco. Se vuoi, raccontami qualcosa.",
+  "@homeSubGreetingNoToday": {
+    "description": "Sotto-saluto della Home v4 quando G4 non ha proposte (tutti i ricordi freschi)."
+  },
+  "homeYourMemories": "I tuoi ricordi",
+  "@homeYourMemories": {
+    "description": "Header della galleria orizzontale di ricordi recenti nella Home v4."
+  },
+  "homeGamesCta": "Gioca",
+  "@homeGamesCta": {
+    "description": "CTA breve nella home v4 (riga di 2 outlined button) che apre la modal di scelta tra G3 e G1."
+  },
+  "homeAppBarGamesTooltip": "Allena la memoria",
+  "@homeAppBarGamesTooltip": {
+    "description": "Tooltip dell'icona giochi (G1 + G3) nell'AppBar della Home v4."
+  },
+  "homeAppBarAskTooltip": "Fai una domanda",
+  "@homeAppBarAskTooltip": {
+    "description": "Tooltip dell'icona Ask nell'AppBar della Home v4."
+  },
+  "homeGamesPickerTitle": "Allena la memoria",
+  "@homeGamesPickerTitle": {
+    "description": "Titolo della modal sheet che appare al tap sull'icona giochi: lista G1 + G3."
+  },
+
+  "homeTodayTitle": "Oggi",
+  "@homeTodayTitle": {
+    "description": "Titolo della card di Spaced Retrieval (G4) in cima alla home."
+  },
+  "homeTodayBody": "C'è un ricordo che sarebbe bello ripercorrere oggi.",
+  "@homeTodayBody": {
+    "description": "Testo invitante (non imperativo) della card OGGI."
+  },
+  "homeTodayCta": "Ripercorrilo ora",
+
+  "gameRecognizeTitle": "Riconosci e racconta",
+  "@gameRecognizeTitle": {
+    "description": "Nome del gioco G3: una foto del proprio archivio, l'utente racconta cosa ricorda."
+  },
+  "gameRecognizeShort": "Una foto, una storia",
+  "gamePhotoMatchTitle": "Memoria delle foto",
+  "@gamePhotoMatchTitle": {
+    "description": "Nome del gioco G1: memory matching con coppie di foto del proprio archivio."
+  },
+  "gamePhotoMatchShort": "Trova le coppie",
+
+  "homeMemoriesCount": "{n, plural, =0{Ancora nessun ricordo} =1{1 ricordo nel sentiero} other{{n} ricordi nel sentiero}}",
+  "@homeMemoriesCount": {
+    "description": "Riassunto numero ricordi sotto il saluto.",
+    "placeholders": {
+      "n": {"type": "int", "example": "8"}
+    }
+  },
+  "homeFadingCount": "{n, plural, =1{Uno sta sbiadendo} other{{n} stanno sbiadendo}}",
+  "@homeFadingCount": {
+    "description": "Riassunto ricordi con footprintOpacity < 1.0. Concatenato a homeMemoriesCount.",
+    "placeholders": {
+      "n": {"type": "int", "example": "2"}
+    }
+  },
+
+  "recognizePromptQ": "Riconosci questa foto? Raccontami cosa ricordi.",
+  "@recognizePromptQ": {
+    "description": "Prompt principale di G3 sotto la foto."
+  },
+  "recognizeStartCta": "Comincia a raccontare",
+  "recognizeRetryCta": "Racconta ancora",
+  "recognizeStopCta": "Ho finito",
+  "recognizeSendCta": "Sentiamo cosa ne pensa",
+  "@recognizeSendCta": {
+    "description": "CTA per inviare il racconto a Gemma e ricevere il feedback caldo."
+  },
+  "recognizeAnotherCta": "Un'altra foto",
+  "recognizeTypeHint": "Scrivi qui, oppure tappa il microfono",
+
+  "gameGuessTitle": "Indovina insieme",
+  "@gameGuessTitle": {
+    "description": "Nome del gioco G2: Gemma genera una domanda specifica su un ricordo dell'utente, l'utente risponde, Gemma valuta."
+  },
+  "gameGuessShort": "Una domanda, una risposta",
+  "gameGuessGenerating": "Sto pensando a una domanda…",
+  "gameGuessAnswerHint": "Scrivi qui la tua risposta, oppure tappa il microfono",
+  "gameGuessSpeakCta": "Rispondi a voce",
+  "gameGuessSendCta": "Vediamo",
+  "gameGuessAnotherCta": "Un'altra domanda",
+  "gameGuessEmptyBody": "Per giocare servono ricordi raccontati. Aggiungi qualche ricordo più ricco e torna qui.",
+  "guessInfoTitle": "Indovina insieme",
+  "guessInfoWhat": "L'app ti pone una domanda specifica su uno dei tuoi ricordi (un anno, un luogo, una persona, un evento). Tu rispondi a voce o per iscritto, e poi senti la risposta giusta presa dal ricordo.",
+  "guessInfoWhy": "Rispondere a una domanda specifica è una forma di richiamo attivo: la memoria si consolida meglio interrogandola che rileggendola passivamente. Lo Spaced Retrieval Training, validato da RCT su pazienti con decadimento cognitivo lieve, è proprio questo — domanda breve, risposta, feedback caldo. Niente punteggi, niente errori sottolineati: se la risposta non c'è, l'app riporta gentilmente al fatto.",
+  "guessInfoSource1Label": "USMART RCT (2017) — spaced retrieval training su tablet in MCI",
+  "guessInfoSource1Url": "https://doi.org/10.1186/s13195-017-0290-6",
+  "guessInfoSource2Label": "Roediger & Karpicke (2006) — testing effect, ricordare interrogando",
+  "guessInfoSource2Url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+
+  "gameStoryTitle": "Storia continua",
+  "@gameStoryTitle": {
+    "description": "Nome del gioco G5: app legge l'incipit di un ricordo, l'utente continua a voce, Gemma confronta."
+  },
+  "gameStoryShort": "Continuala tu",
+  "gameStoryPrompt": "…e poi cosa è successo?",
+  "@gameStoryPrompt": {
+    "description": "Invito che appare sotto l'incipit del ricordo: l'utente è chiamato a continuare la storia."
+  },
+  "gameStoryContinueHint": "Continua tu il ricordo… (parla o scrivi)",
+  "gameStorySendCta": "Vediamo come continua",
+  "gameStoryAnotherCta": "Un altro ricordo",
+  "gameStoryFullMemoryLabel": "Il ricordo completo",
+  "@gameStoryFullMemoryLabel": {
+    "description": "Etichetta sopra al testo del ricordo intero, mostrato dopo il feedback per consentire rilettura."
+  },
+  "gameStoryEmptyBody": "Per giocare servono ricordi un po' lunghi (almeno due frasi). Aggiungi un ricordo più ricco e torna qui.",
+  "storyInfoTitle": "Storia continua",
+  "storyInfoWhat": "L'app legge a voce le prime frasi di un tuo ricordo, poi ti chiede di continuarlo. Tu racconti come pensi sia andata, e l'app ti dà un feedback caldo confrontando con il ricordo originale. Alla fine vedi il ricordo per intero.",
+  "storyInfoWhy": "Continuare a voce un ricordo a partire da un cue narrativo è il modo più simile a come la memoria autobiografica funziona spontaneamente: non un quiz a domande chiuse, ma una storia che si srotola. La stimolazione narrativa guidata ha mostrato benefici sulla memoria episodica autobiografica in pazienti con decadimento lieve, soprattutto quando il materiale è personale.",
+  "storyInfoSource1Label": "Cotelli et al. (2012) — riabilitazione cognitiva narrativa in MCI/AD",
+  "storyInfoSource1Url": "https://pubmed.ncbi.nlm.nih.gov/22466023/",
+  "storyInfoSource2Label": "Woods et al., Cochrane Review (2018) — reminiscence therapy in demenza",
+  "storyInfoSource2Url": "https://doi.org/10.1002/14651858.CD001120.pub3",
+  "@recognizeTypeHint": {
+    "description": "Hint del TextField in G3: input alternativo alla voce."
+  },
+  "recognizeNoPhotosBody": "Per giocare servono ricordi con una foto. Aggiungi prima una foto a un ricordo, poi torna qui.",
+
+  "photoMatchPairs": "{found} di {total} coppie",
+  "@photoMatchPairs": {
+    "description": "Header della partita G1: quante coppie ha trovato.",
+    "placeholders": {
+      "found": {"type": "int", "example": "2"},
+      "total": {"type": "int", "example": "6"}
+    }
+  },
+  "photoMatchMoves": "{n, plural, =1{1 mossa} other{{n} mosse}}",
+  "@photoMatchMoves": {
+    "description": "Conta delle mosse (tap di seconda carta) nella partita G1.",
+    "placeholders": {
+      "n": {"type": "int", "example": "12"}
+    }
+  },
+  "photoMatchWonTitle": "Sentiero ritrovato",
+  "@photoMatchWonTitle": {
+    "description": "Titolo della schermata di vittoria G1. Coerente con la metafora del troso (sentiero che si ricongiunge)."
+  },
+  "photoMatchWonBody": "{n, plural, =1{Hai trovato tutte le coppie in 1 mossa.} other{Hai trovato tutte le coppie in {n} mosse.}}",
+  "@photoMatchWonBody": {
+    "placeholders": {
+      "n": {"type": "int", "example": "12"}
+    }
+  },
+  "photoMatchRetryCta": "Un'altra partita",
+  "photoMatchNotEnoughBody": "Per giocare servono almeno sei ricordi con una foto. Racconta qualche ricordo in più e torna qui.",
+  "photoMatchWonTtsWithName": "Bravissimo {name}, hai ritrovato tutte le coppie. Le orme di questi ricordi tornano luminose.",
+  "@photoMatchWonTtsWithName": {
+    "description": "Messaggio TTS pronunciato a fine gioco G1 quando il profilo ha un nome/vocativo. Coerente con la metafora 'orme che brillano' del trittico el troso.",
+    "placeholders": {
+      "name": {"type": "String", "example": "Giorgio"}
+    }
+  },
+  "photoMatchWonTtsNoName": "Bravissimo, hai ritrovato tutte le coppie. Le orme di questi ricordi tornano luminose.",
+  "@photoMatchWonTtsNoName": {
+    "description": "Variante del messaggio TTS quando il profilo non ha un nome utilizzabile."
+  },
+
+  "legendFresh": "appena calpestato",
+  "@legendFresh": {
+    "description": "Etichetta per orma luminosa (footprintOpacity 1.0): ricordo ripercorso entro gli ultimi 7 giorni."
+  },
+  "legendFading": "sta sbiadendo",
+  "@legendFading": {
+    "description": "Etichetta per orma a opacity 0.6: ricordo non calpestato da 7-13 giorni."
+  },
+  "legendGhost": "quasi dimenticato",
+  "@legendGhost": {
+    "description": "Etichetta per orma a opacity 0.3: ricordo non calpestato da 14+ giorni."
+  },
+
+  "walkConfirmedTitle": "Hai ripercorso questo ricordo",
+  "@walkConfirmedTitle": {
+    "description": "Titolo della mini-card che appare in home dopo qualunque walk (G3, G4, G1, Ripercorri normale). Visibile per 5 secondi."
+  },
+  "walkConfirmedBody": "Le orme tornano luminose.",
+
+  "onbSeedTitle": "Vuoi cominciare con un libro di ricordi?",
+  "@onbSeedTitle": {
+    "description": "Titolo della schermata opt-in che chiede se pre-caricare i 12 ricordi seed di Giorgio. Mostrata in onboarding subito dopo il profilo, prima della home."
+  },
+  "onbSeedBody": "Sono le memorie di Giorgio, 86 anni, che ha raccontato la sua vita ai nipoti in un libro. Puoi guardarle, ripercorrerle, e cancellarle quando vuoi per cominciare il tuo sentiero.",
+  "@onbSeedBody": {
+    "description": "Testo della schermata seed offer: spiega cosa sono i seed e che sono opzionali / cancellabili."
+  },
+  "onbSeedCtaYes": "Sì, fammi vedere",
+  "@onbSeedCtaYes": {
+    "description": "CTA che carica i 12 ricordi seed dal bundle e va in home."
+  },
+  "onbSeedCtaNo": "No, comincio io",
+  "@onbSeedCtaNo": {
+    "description": "CTA che salta il seed-load e va in home con sentiero vuoto."
+  },
+  "onbSeedLoading": "Sto preparando i ricordi di Giorgio...",
+  "@onbSeedLoading": {
+    "description": "Stato transitorio mostrato mentre SeedLoader copia foto + scrive JSON (alcuni secondi)."
+  },
+
+  "modelLoadingTitle": "Sto preparando il sentiero...",
+  "@modelLoadingTitle": {
+    "description": "Titolo della schermata di preparazione del modello Gemma 4 al primo avvio. La metafora del sentiero che si forma e' branding-coerente."
+  },
+  "modelLoadingBody": "Tutto resta nel tuo telefono. Niente esce di qui.",
+
+  "gameInfoWhatTitle": "Di cosa si tratta",
+  "@gameInfoWhatTitle": {
+    "description": "Sotto-titolo della prima sezione della GameInfoSheet (G3, G1, G4). Spiega cosa fa il gioco in parole semplici."
+  },
+  "gameInfoWhyTitle": "Perché funziona",
+  "@gameInfoWhyTitle": {
+    "description": "Sotto-titolo della seconda sezione della GameInfoSheet. Sintesi EBM in linguaggio non clinico."
+  },
+  "gameInfoSourcesTitle": "Fonti",
+  "@gameInfoSourcesTitle": {
+    "description": "Sotto-titolo della lista di studi/review citate, tappabili per aprire DOI o PubMed nel browser."
+  },
+  "gameInfoCloseCta": "Ho capito",
+  "@gameInfoCloseCta": {
+    "description": "CTA che chiude la GameInfoSheet."
+  },
+
+  "recognizeInfoTitle": "Riconosci e racconta",
+  "@recognizeInfoTitle": {
+    "description": "Titolo della info-sheet del gioco G3."
+  },
+  "recognizeInfoWhat": "Vedi una foto del tuo album e racconti ad alta voce cosa ricordi. Non c'è una risposta giusta o sbagliata: conta solo che la voce torni sul ricordo. Alla fine l'app ti restituisce un piccolo riassunto di quello che hai detto.",
+  "recognizeInfoWhy": "Far tornare a parole un ricordo davanti a uno stimolo familiare è il cuore della reminiscence therapy: una conversazione 1-a-1 tra una persona e un suo ricordo, mediata qui dall'app invece che da un familiare. Le revisioni Cochrane mostrano benefici piccoli ma costanti su umore, cognizione e qualità della vita — soprattutto quando lo stimolo è autobiografico, non generico.",
+  "recognizeInfoSource1Label": "Woods et al., Cochrane Review (2018) — reminiscence therapy in demenza",
+  "recognizeInfoSource1Url": "https://doi.org/10.1002/14651858.CD001120.pub3",
+  "recognizeInfoSource2Label": "Berry et al. (2014) — SenseCam e memoria autobiografica",
+  "recognizeInfoSource2Url": "https://pubmed.ncbi.nlm.nih.gov/16194452/",
+
+  "photoMatchInfoTitle": "Memoria delle foto",
+  "@photoMatchInfoTitle": {
+    "description": "Titolo della info-sheet del gioco G1."
+  },
+  "photoMatchInfoWhat": "Un classico memory: 6 coppie di foto coperte, scopri due carte alla volta finché non le hai abbinate tutte. Le foto vengono dal tuo album personale — non sono icone qualunque ma volti, luoghi e momenti che già conosci.",
+  "photoMatchInfoWhy": "La memoria di riconoscimento visivo resta relativamente conservata anche nel decadimento cognitivo lieve, e i giochi seri costruiti su materiale autobiografico personalizzato sono un ingaggio emotivo più forte di un memory generico. Niente magia: serve a stare un po' di tempo dentro le proprie foto, in modo attivo.",
+  "photoMatchInfoSource1Label": "JMIR Serious Games (2024) — meta-analisi giochi cognitivi in MCI/AD",
+  "photoMatchInfoSource1Url": "https://games.jmir.org/2024/1/e55785",
+
+  "homeTodayInfoTitle": "Oggi",
+  "@homeTodayInfoTitle": {
+    "description": "Titolo della info-sheet della card OGGI (G4 — Spaced Retrieval)."
+  },
+  "homeTodayInfoWhat": "Ogni giorno l'app sceglie un ricordo che non ripercorri da un po' e te lo propone in cima alla home. Se lo apri e lo riascolti, le sue \"orme\" tornano luminose e l'app aspetta più giorni prima di riproportelo. Se lo lasci stare, torna prima.",
+  "homeTodayInfoWhy": "Si chiama Spaced Retrieval Training: rinfrescare un'informazione a intervalli che si allungano nel tempo (1, 3, 7, 14, 30 giorni) è una delle tecniche non-farmacologiche con le prove più solide per la memoria nel decadimento cognitivo lieve e nella demenza lieve. Funziona meglio quando il materiale è personale e quando l'intervallo si adatta a come va il richiamo.",
+  "homeTodayInfoSource1Label": "Hopper et al. (2013) — review di interventi spaced-retrieval",
+  "homeTodayInfoSource1Url": "https://pubmed.ncbi.nlm.nih.gov/23886395/",
+  "homeTodayInfoSource2Label": "USMART RCT (2017) — SRT su tablet in pazienti MCI",
+  "homeTodayInfoSource2Url": "https://doi.org/10.1186/s13195-017-0290-6"
+}

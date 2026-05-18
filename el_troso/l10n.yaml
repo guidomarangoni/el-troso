@@ -1,0 +1,25 @@
+# Fase 4.4.b - configurazione flutter_localizations / gen-l10n.
+#
+# Convenzione scelta: app_it.arb e' il TEMPLATE (l'app e' IT-first,
+# testimonial IT, source-of-truth copy in italiano). app_en.arb contiene
+# la traduzione completa in inglese. Qualunque stringa nuova va aggiunta
+# prima in app_it.arb, poi in app_en.arb.
+#
+# Nota 2026: "synthetic-package" e' stato RIMOSSO da Flutter (vedi
+# https://flutter.dev/to/flutter-gen-deprecation). Il codice generato
+# va scritto direttamente nel package del progetto, in lib/l10n/, e
+# importato come package:el_troso/l10n/app_localizations.dart.
+#
+# Output: lib/l10n/app_localizations.dart (classe AppLocalizations) +
+# app_localizations_it.dart + app_localizations_en.dart.
+#
+# Uso in codice:
+#   import 'package:el_troso/l10n/app_localizations.dart';
+#   Text(AppLocalizations.of(context)!.appTagline);
+
+arb-dir: lib/l10n
+output-dir: lib/l10n
+template-arb-file: app_it.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
