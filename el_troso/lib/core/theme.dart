@@ -30,9 +30,9 @@ class ElTrosoColors {
   static const Color textSecondary = Color(0xFF6B5A47); // bruno caldo
   static const Color faded = Color(0xFF8B5A3C); // bruno terra
 
-  // Scale di opacity per il pattern "orme che sbiadiscono" (F12 in
-  // VERTICAL_SLICE_SPEC.md). Applicato come opacity su icona/orma, non
-  // come colore separato - cosi' e' coerente per tutti i ricordi.
+  // Scale di opacity per il pattern "orme che sbiadiscono" (F12).
+  // Applicato come opacity su icona/orma, non come colore separato —
+  // cosi' e' coerente per tutti i ricordi.
   static const double footprintBright = 1.0;
   static const double footprintFading = 0.6;
   static const double footprintGhost = 0.3;

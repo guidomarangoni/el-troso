@@ -177,9 +177,7 @@ assets:
 
 This project was built with substantial AI pair-programming
 assistance (Anthropic Claude). The design decisions, the metaphor,
-the choice of EBM anchors, the scope-lock discipline, and every
-trade-off in the
-[`BACKLOG_POST_HACKATHON.md`](BACKLOG_POST_HACKATHON.md) are human.
+the choice of EBM anchors, and the scope-lock discipline are human.
 The implementation was a collaboration. We think this is the right
 way to build software in 2026, and we're honest about it.
 

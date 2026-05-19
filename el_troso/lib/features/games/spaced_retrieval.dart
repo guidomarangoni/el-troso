@@ -56,8 +56,8 @@
 //
 // SCELTA ETICA: NIENTE NOTIFICHE PUSH
 // ────────────────────────────────────────────────────────────────────
-// La feature OUT in VERTICAL_SLICE_SPEC §3 "no notifiche push" e'
-// onorata: la card "Oggi" appare in home alla normale apertura della
+// La scelta "no notifiche push" e' onorata: la card "Oggi" appare in
+// home alla normale apertura della
 // app. Nessun reminder esterno. SRT classico in clinica usa il
 // terapista come "trigger"; qui il trigger e' la routine quotidiana di
 // apertura dell'app. Coerente con: Gitlin 2012 (interventi invasivi

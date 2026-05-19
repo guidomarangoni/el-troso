@@ -290,12 +290,8 @@ expect to revisit this in Q3 2026.
 
 ## Project status
 
-Current build: **0.4.5+43** (2026-05-05). The full state-of-implementation
-diff against the original spec is in
-[`VERTICAL_SLICE_SPEC.md`](VERTICAL_SLICE_SPEC.md) §12. The post-hackathon
-backlog is in [`BACKLOG_POST_HACKATHON.md`](BACKLOG_POST_HACKATHON.md).
-
-All twelve original features (F1–F12) ship. Five EBM-grounded games have
+Current build: **0.4.5+45** (2026-05-17). All twelve original features
+(F1–F12) ship. Five EBM-grounded games have
 been added inside scope. Two scope reopenings — the in-app `GameInfoSheet`
 for citation transparency, and on-demand memory translation — are
 documented as explicit, motivated decisions, not creep.

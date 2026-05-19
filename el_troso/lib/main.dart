@@ -86,7 +86,7 @@ class ElTrosoApp extends ConsumerWidget {
       // che fa fallback al PRIMO supportedLocale (it) per le lingue non
       // supportate, dando UI italiana a un utente tedesco / spagnolo.
       // Coerente con la decisione di scope "demo IT + EN, le altre
-      // lingue sono capability di Gemma, non UI" (BACKLOG_POST_HACKATHON).
+      // lingue sono capability di Gemma, non UI" (deferred to v1.x).
       localeListResolutionCallback: (deviceLocales, supported) {
         if (deviceLocales != null) {
           for (final loc in deviceLocales) {

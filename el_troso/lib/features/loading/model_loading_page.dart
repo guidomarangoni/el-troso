@@ -4,8 +4,8 @@
 // external dir. In MVP questo accade nella pratica solo se l'utente
 // ha installato un APK fresco senza modello (ipotesi piu' frequente
 // in fase dev). Per la submission Kaggle, il flow definitivo e' quello
-// asset-bundled (vedi BACKLOG_POST_HACKATHON o futuro commit asset
-// diretto): l'APK conterra' il .litertlm in assets/models/, e questa
+// asset-bundled (deferred to v1.x): l'APK conterra' il .litertlm in
+// assets/models/, e questa
 // pagina copiera' lo stream da rootBundle a getExternalStorageDirectory()
 // con progress reale di bytes.
 //

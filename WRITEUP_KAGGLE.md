@@ -277,8 +277,6 @@ and wrote 12 memories — and then let him turn them into an app.
 - 📹 Pitch video (3 min): `[link]`
 - 🐙 Repository: `[link]`
 - 📄 Long-form README: [`README.md`](README.md)
-- 🛠️ Build spec: [`VERTICAL_SLICE_SPEC.md`](VERTICAL_SLICE_SPEC.md)
-- 🗺️ Post-hackathon backlog: [`BACKLOG_POST_HACKATHON.md`](BACKLOG_POST_HACKATHON.md)
 - 📜 License: Apache 2.0 ([`LICENSE`](LICENSE))
 - 🙏 Credits: [`CREDITS.md`](CREDITS.md)
 
