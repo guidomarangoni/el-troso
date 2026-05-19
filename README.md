@@ -40,6 +40,27 @@ The whole product, including this README, is downstream of those three lines.
 
 ---
 
+## A glimpse of the app
+
+<p align="center">
+  <img src="assets/screenshots/shot00.jpg" width="190" alt="Onboarding — choose your language">
+  <img src="assets/screenshots/shot01.jpg" width="190" alt="Home — today's memory and your gallery">
+  <img src="assets/screenshots/shot02.jpg" width="190" alt="G3 Recognize and Tell — Gemma responds with care">
+  <img src="assets/screenshots/shot03.jpg" width="190" alt="Memory detail — on-device translation IT → EN">
+</p>
+
+<p align="center"><sub>
+<b>Onboarding</b> · pick your language &nbsp;·&nbsp;
+<b>Home</b> · today's memory and your gallery &nbsp;·&nbsp;
+<b>G3 Recognize &amp; Tell</b> · Gemma responds with care &nbsp;·&nbsp;
+<b>Memory detail</b> · on-device translation IT → EN
+</sub></p>
+
+> All four screenshots were taken on a Pixel 7a in airplane mode. Every
+> memory, every game, every response — all of it runs on the phone.
+
+---
+
 ## The walkthrough
 
 > *We strongly suggest watching the 3-minute video first — the design is
