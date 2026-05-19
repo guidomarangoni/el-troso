@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/el-troso-miniatura.jpg" width="900" alt="El Troso — a grandfather walking a country path at sunset with three grandchildren, the app's home screen visible on a phone in the foreground. Tagline: Walk a memory with someone you love.">
+</p>
+
 # El Troso
 
 > *The path your memories keep alive when you walk it.*
